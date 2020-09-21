@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>"Untitled" by Piet Mondrian</title>
+    <meta name="viewport" content="width=device-width, initial-scale: 1.0">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: #fae9dc">
+
+      <!--Vertical black bars-->
+      <a-box position="-0.7 2.2 -2.1" depth="0.1" height="3.3" width="0.1" color="#000000" shadow></a-box>
+      <a-box position="0.3 1.2 -2.1" depth="0.1" height="1.3" width="0.1" color="#000000" shadow></a-box>
+      <a-box position="1.3 2.5 -2.1" depth="0.1" height="3.5" width="0.1" color="#000000" shadow></a-box>
+      <a-box position="2.3 2.4 -2.1" depth="0.1" height="3.7" width="0.1" color="#000000" shadow></a-box>
+      <a-box position="-0.3 4.1 -2.1" depth="0.1" height="0.3" width="0.1" color="#000000" shadow></a-box>
+      <a-box position="1.9 2.4 -2.1" depth="0.1" height="0.9" width="0.1" color="#000000" shadow></a-box>
+      
+      <!--Horizontal black bars-->
+      <a-box position="0.7 1.5 -2.1" depth="0.1" height="0.1" width="3.9" color="#000000" shadow></a-box>
+      <a-box position="0.3 1.1 -2.1" depth="0.1" height="0.1" width="2.0" color="#000000" shadow></a-box>
+      <a-box position="1.3 0.7 -2.1" depth="0.1" height="0.1" width="1.9" color="#000000" shadow></a-box>
+      <a-box position="0.5 3.9 -2.1" depth="0.1" height="0.1" width="3.5" color="#000000" shadow></a-box>
+      <a-box position="1.8 2.9 -2.1" depth="0.1" height="0.1" width="0.9" color="#000000" shadow></a-box>
+      <a-box position="0.8 1.9 -2.1" depth="0.1" height="0.1" width="2.9" color="#000000" shadow></a-box>
+      
+      <!--White boxes-->
+      <a-box position="-0.2 1.3 -2" depth="0.1" height="0.3" width="0.9" color="#FFFFFF" shadow></a-box>
+      <a-box position="-0.2 0.8 -2" depth="0.1" height="0.5" width="0.9" color="#FFFFFF" animation="property:position; to:-0.2 0.7 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="0.8 1.3 -2" depth="0.1" height="0.3" width="0.9" color="#FFFFFF" shadow></a-box>
+      <a-box position="1.3 0.6 -2" depth="0.1" height="0.1" width="1.9" color="#FFFFFF" animation="property:position; to:1.3 0.5 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="2.5 2.9 -2" depth="0.1" height="2.7" width="0.3" color="FFFFFF" animation="property:position; to:2.6 3 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="-1 2.7 -2" depth="0.1" height="2.3" width="0.5" color="FFFFFF" animation="property:position; to:-1.1 2.7 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="-0.8 4.1 -2" depth="0.1" height="0.3" width="0.9" color="#FFFFFF" animation="property:position; to:-0.9 4.2 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="0.5 4.1 -2" depth="0.1" height="0.3" width="1.5" color="#FFFFFF" animation="property:position; to:0.5 4.2 -2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="0.8 1.7 -2" depth="0.1" height="0.3" width="0.9" color="#FFFFFF" shadow></a-box>
+      <a-box position="1.8 1.7 -2" depth="0.1" height="0.3" width="0.9" color="#FFFFFF" shadow></a-box>
+      <a-box position="1.6 2.4 -2" depth="0.1" height="0.9" width="0.5" color="#FFFFFF" shadow></a-box>
+      <a-box position="2.1 2.4 -2" depth="0.1" height="0.9" width="0.3" color="#FFFFFF" shadow></a-box>
+      
+      <!--Black boxes-->
+      <a-box position="0.8 0.9 -2.1" depth="0.1" height="0.3" width="0.9" color="#000000" shadow></a-box>
+      <a-box position="-0.2 1.7 -2.1" depth="0.1" height="0.3" width="0.9" color="#000000" shadow></a-box>
+      
+      <!--Colored boxes-->
+      <a-box position="-1 1 -2" depth="0.5" height="0.9" width="0.5" color="yellow" animation="property:position; to:-1 1 -2.4; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="1.8 4.1 -2" depth="0.9" height="0.3" width="0.9" color="yellow" animation="property:position; to:1.8 4.1 -2.5; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="1.8 3.4 -2" depth="0.1" height="0.9" width="0.9" color="yellow" animation="property:position; to:1.8 3.4 -2.2; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="2.5 1 -2.5" depth="0.7" height="0.9" width="0.3" color="red" animation="property:position; to:2.5 1 -2.1; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="0.3 2.9 -2.2" depth="0.1" height="1.9" width="1.9" color="red" animation="property:material.color; from:#FF0000; to:#00FF00; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      <a-box position="1.8 1.1 -2" depth="0.1" height="0.7" width="0.9" color="blue" animation="property:material.color; from:#0000FF; to:#FF00FF; dur:1000; easing:linear; dir:alternate; loop:true;" shadow></a-box>
+      
+      <!--Background-->
+      <a-plane position="0.5 1 -2.3" rotation="0 0 0" width="10" height="10" src="Stone.jpg" shadow></a-plane>
+    </a-scene>
+  </body>
+</html>
